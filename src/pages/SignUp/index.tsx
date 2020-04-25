@@ -25,7 +25,7 @@ const SignUp: React.FC = () => {
         email: Yup.string()
           .required('E-mail obrigatório')
           .email('Digite um e-mail válido'),
-        password: Yup.string().min(6, 'Senha deve ter no mínimo 6 digitos'),
+        password: Yup.string().min(6, 'No mínimo 6 digitos'),
       });
 
       await schema.validate(data, {
