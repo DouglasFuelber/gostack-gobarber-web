@@ -37,7 +37,7 @@ export const AnimationContainer = styled.div`
   justify-content: center;
 
   form {
-    margin: 80px 0;
+    margin: 45px 0;
     text-align: center;
     width: 340px;
 
